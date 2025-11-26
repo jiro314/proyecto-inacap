@@ -8,11 +8,13 @@ function App() {
 
   return (
     <>
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
+      <h1>**CONTADOR INTERACTIVO**</h1>
+      <button className="contador-btn" onClick={() => setCount((count) => count + 1)}>
+        boton contador {count}
       </button>
     </>
   )
 }
+
 
 export default App

@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.contador-btn {
+  background-color: yellow;
+  padding: 11px 60px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn-image{
+  background-image: url('./assets/troll.jpeg');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+}
