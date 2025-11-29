@@ -30,12 +30,12 @@ const MainButtons = () => {
               <button className="btn btn-warning data-value-button status-off-button">NO</button>
             </div>
             <div className="data-row">
-              <span className="data-label">Frio Activo:</span>
+              <span className="data-label">Humedificador:</span>
               <button className="btn btn-warning data-value-button status-off-button">NO</button>
             </div>
             <div className="data-row">
               <span className="data-label">Iluminacion:</span>
-              <button className="btn btn-warning data-value-button status-off-button">NO</button>
+              <button className="btn btn-light data-value-button">40</button>
             </div>
           </div>
           <div className='status-box'>
