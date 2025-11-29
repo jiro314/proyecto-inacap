@@ -5,62 +5,128 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.main-container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  width: 100%; 
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title-center {
+  display: inline-block; 
+  
+  background-color: rgb(255, 174, 0); 
+  color: rgb(255, 0, 0); 
+  padding: 6px 10px; 
+  border-radius: 4px; 
+  
+  text-align: center; 
+  margin-bottom: 120px; 
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.button-groups-wrapper {
+  display: flex;
+  justify-content: space-between; 
+  width: 90%;
 }
 
-.card {
-  padding: 2em;
+.group-left-vertical {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
 }
 
-.read-the-docs {
-  color: #888;
+.button-spacing {
+  margin-bottom: 50px; 
+  width: 100%; 
 }
 
-.contador-btn {
-  background-color: yellow;
-  padding: 11px 60px;
-  border: none;
-  border-radius: 3px;
-  font-size: 1em;
-  cursor: pointer;
+.group-right-inline {
+  display: flex; 
+  gap: 5px;
 }
 
-.btn-image{
-  background-image: url('./assets/troll.jpeg');
 
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.title-margin {
+  margin-right: 1rem; 
+}
 
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1em;
-  cursor: pointer;
+
+.group-right-vertical {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+
+
+.vertical-button {
+  margin-bottom: 50px;
+  width: 100%; 
+}
+
+.data-label {
+  width: 120px; 
+  text-align: right; 
+  font-weight: 500; 
+  padding-right: 10px; 
+  color: #333; 
+    
+  background-color: rgb(255, 187, 0);  
+  border: 1px solid black; 
+  padding: 6px 10px 6px 10px; 
+  border-radius: 4px; 
+  margin-right: 10px; 
+    
+  display: inline-block; 
+}
+
+.data-row {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+.data-value-button {
+    padding: 6px 12px;
+    font-weight: bold;
+    min-width: 60px;
+    text-align: center;
+    margin-left: 1px;
+}
+
+.status-on-button {
+  background-color: green !important; 
+  color: white !important;
+}
+
+.status-off-button {
+  background-color: red !important; 
+  color: white !important;
+}
+
+.status-box {
+  border: 3px solid #ffc107; 
+  padding: 10px;
+  width: 150px; 
+  height: min-content; 
+  border-radius: 5px;
+  background-color: #fffbe6; 
+  margin-left: 15px; 
+  text-align: left;
+  font-size: 0.85em;
+}
+
+.box-title {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #a8552f; 
+  font-size: 1em; 
+}
+
+.right-section-wrapper {
+  display: flex; 
+  align-items: flex-start; 
 }
