@@ -41,7 +41,7 @@ const MainButtons = () => {
           <div className='status-box'>
             <h6 className="box-title">Estado de la Máquina</h6>
             <p>Status: OK</p>
-            <p>Última Actualización: 14:30</p>
+            <p>Última Actualización: 12/12/2025</p>
           </div>  
         </div>
       </div>
